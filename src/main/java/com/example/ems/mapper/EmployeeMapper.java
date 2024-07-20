@@ -20,7 +20,7 @@ public class EmployeeMapper {
                 employeeDto.getFirstName(),
                 employeeDto.getLastName(),
                 employeeDto.getEmail(),
-                "defaultPassword"
+                "null"
         );
     }
 }
