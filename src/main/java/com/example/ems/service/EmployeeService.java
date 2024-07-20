@@ -1,0 +1,7 @@
+package com.example.ems.service;
+
+import com.example.ems.dto.EmployeeDto;
+
+public interface EmployeeService {
+    EmployeeDto createEmployee(EmployeeDto employeeDto);
+}
